@@ -1,5 +1,6 @@
 .table-container {
     width: 100%;
+    margin-top: 20px;
 
     table {
         width: 100%;
@@ -37,6 +38,7 @@
         border-radius: 50%;
         width: 40px;
         height: 40px;
+        object-fit: cover;
     }
 
     .trFixed {
@@ -51,11 +53,17 @@
     }
 
     .td3 {
-        width: 6%;
+        width: 150px;
     }
 
     .age {
         width: 150px;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
     }
 
     .phone {
@@ -63,10 +71,27 @@
     }
 
     .aa:last-child {
-        text-align: right;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .aa {
+        padding-right: 10px;
+
+        button {
+            background-color: #d50000;
+            padding: 3px 25px;
+            border-radius: 3px;
+            color: white;
+            border: none;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: #9c0000;
+            }
+        }
     }
 }
 
@@ -124,7 +149,13 @@
         }
 
         .td3 {
-            width: 6%;
+            width: 100px;
+        }
+
+        .aa {
+            button {
+                padding: 3px 10px;
+            }
         }
 
         .age {
@@ -133,13 +164,6 @@
 
         .phone {
             width: 150px;
-        }
-
-        .aa:last-child {
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
     }
 }
@@ -203,10 +227,6 @@
             gap: 10px;
         }
 
-        .td3 {
-            width: 50px;
-        }
-
         .age {
             width: 90px;
         }
@@ -219,17 +239,10 @@
             width: 130px;
         }
 
-
-        .aa:last-child {
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
     }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 850px) {
     .table-container {
         width: 100%;
         overflow-x: scroll;
@@ -279,7 +292,7 @@
 
         .trFixed {
             position: fixed;
-            width: calc(100% - 27px);
+            width: calc(100% - 248px);
         }
 
         .td2 {
@@ -288,8 +301,95 @@
             gap: 10px;
         }
 
-        .td3 {
+        .age {
             width: 50px;
+
+            span {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h5 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+        }
+
+        .port {
+            display: none;
+        }
+
+        .phone {
+            width: 110px;
+        }
+
+    }
+}
+
+@media(max-width: 700px) {
+    .table-container {
+        width: 100%;
+        overflow-x: scroll;
+        // width: 850px;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th,
+        td {
+            border-top: 1px solid grey;
+            border-left: 1px solid grey;
+            border-right: 1px solid grey;
+            padding: 8px;
+            text-align: left;
+        }
+
+        td {
+            font-size: 14px;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+
+        tbody {
+            display: block;
+        }
+
+        tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            border-bottom: 1px solid grey;
+        }
+
+        td img {
+            border-radius: 50%;
+            width: 40px;
+            object-fit: cover;
+            height: 40px;
+        }
+
+        .trFixed {
+            position: fixed;
+            width: calc(100% - 27px);
+        }
+
+        .td2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .age {
@@ -303,22 +403,14 @@
         .phone {
             width: 130px;
         }
-
-
-        .aa:last-child {
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .table-container {
         width: 100%;
         overflow-x: scroll;
-        width: 500px;
+        width: 600px;
         padding-right: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -380,12 +472,24 @@
             gap: 10px;
         }
 
-        .td3 {
-            width: 50px;
-        }
-
         .age {
-            width: 90px;
+            width: 100px;
+
+            span {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                h5 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                p {
+                    display: block;
+                }
+            }
         }
 
         .port {
@@ -394,14 +498,6 @@
 
         .phone {
             width: 130px;
-        }
-
-
-        .aa:last-child {
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
     }
 }

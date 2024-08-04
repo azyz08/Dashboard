@@ -2,9 +2,8 @@ import { Button } from "@material-tailwind/react";
 import "./style.scss"
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import { inctance } from "../../ustils/axios";
 
-export default function LoyihaCard({ nomi, fullStack, narxi, deadline, phone, email }) {
+export default function XabarCard({ ismi, phone, email, xabar }) {
     const { t } = useTranslation();
     return (
         <>
@@ -13,12 +12,10 @@ export default function LoyihaCard({ nomi, fullStack, narxi, deadline, phone, em
                     <div className="back">
                         <div className="back-content duration-200  bg-white dark:bg-[#121212]">
                             <div className="ps">
-                                <p>{t("nomi")}: <span>{nomi}</span></p>
-                                <p>{t("stack")}: <span>{fullStack}</span></p>
-                                <p>{t("narx")}: <span>{narxi}</span></p>
-                                <p>{t("deadline")}: <span>{deadline}</span></p>
+                                <p>{t("nomi")}: <span>{ismi}</span></p>
                                 <p>{t("phone")}: <span>{phone}</span></p>
                                 <a href={""}><p>{t("email2")}: <span>{email}</span></p></a>
+                                <p className="endP"><h3>{t("xabar")}:<i class="fa-solid fa-arrow-down"></i></h3> <span>{xabar}</span></p>
                             </div>
                         </div>
                     </div>

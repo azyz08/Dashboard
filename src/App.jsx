@@ -7,6 +7,7 @@ import Proektlar from "./pages/proektlar";
 import Xodimlar from "./pages/xodimlar";
 import Jamoalar from "./pages/jamoalar";
 import Xabarlar from "./pages/xabarlar";
+import SeeMore from "./pages/seeMore";
 
 export default function App() {
   const { darkMode, toggleDarkMode } = useMode();
@@ -25,7 +26,7 @@ export default function App() {
                 <Route path="/xodimlar" element={<Xodimlar />} />
                 <Route path="/jamoalar" element={<Jamoalar />} />
                 <Route path="/xabarlar" element={<Xabarlar />} />
-                <Route path="/xodimlar/:id" element={<h1>Update</h1>} />
+                <Route path="/xodimlar/:id" element={<SeeMore />} />
               </Routes>
             </div>
           </div>

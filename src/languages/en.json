@@ -15,5 +15,14 @@
     "xabar": "Message",
     "more": "Read more",
     "user": "User",
-    "age": "Age"
+    "age": "Age",
+    "about": "About",
+    "manzil": "Location",
+    "til": "Language",
+    "stack": "Full_stack",
+    "email2": "Email",
+    "portfolio": "Portfolio",
+    "reset": "Reset",
+    "seEmail": "See email",
+    "delXabar": "Delete message"
 }

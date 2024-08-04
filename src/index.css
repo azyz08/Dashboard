@@ -10,3 +10,18 @@ body {
     overflow: hidden;
     height: 100vh;
 }
+
+.topH1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+@media (max-width: 400px) {
+    .topH1 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        text-align: center;
+    }
+}

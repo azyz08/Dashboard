@@ -5,4 +5,234 @@
     gap: 12px;
     margin-top: 30px;
     flex-wrap: wrap;
+
+    .car {
+        width: 32.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 6px;
+        padding-bottom: 5px;
+
+        .btn {
+            width: 100%;
+            padding: 0 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .btn1 {
+                padding: 9px 5px;
+                margin-top: 5px;
+                width: 50%;
+                font-size: 12px;
+                text-transform: capitalize;
+            }
+
+            .btn2 {
+                padding: 0 5px;
+                font-size: 14px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+                height: 33px;
+                overflow: hidden;
+                margin-top: 4px;
+                width: 50%;
+                background-color: transparent;
+                border: 2px solid rgb(0, 182, 0);
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1245px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+
+        .car {
+            width: 32.5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid grey;
+            border-radius: 6px;
+            padding-bottom: 5px;
+
+            .btn {
+                width: 100%;
+                padding: 0 5px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 3px;
+
+                .btn1 {
+                    padding: 9px 5px;
+                    margin-top: 5px;
+                    width: 100%;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+
+                .btn2 {
+                    padding: 0 5px;
+                    font-size: 14px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    height: 33px;
+                    overflow: hidden;
+                    margin-top: 4px;
+                    width: 100%;
+                    background-color: transparent;
+                    border: 2px solid rgb(0, 182, 0);
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1208px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+
+        .car {
+            width: 49%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid grey;
+            border-radius: 6px;
+            padding-bottom: 5px;
+
+            .btn {
+                width: 100%;
+                padding: 0 5px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                flex-direction: column;
+
+                button {
+                    padding: 9px 5px;
+                    margin-top: 5px;
+                    width: 100%;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+
+                .btn2 {
+                    padding: 8.4px 25px;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 847px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+
+        .car {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid grey;
+            border-radius: 6px;
+            padding-bottom: 5px;
+
+            .btn {
+                width: 100%;
+                padding: 0 5px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                flex-direction: row;
+
+                button {
+                    padding: 9px 5px;
+                    margin-top: 5px;
+                    width: 100%;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+
+                .btn2 {
+                    padding: 8.4px 25px;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 400px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+
+        .car {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid grey;
+            border-radius: 6px;
+            padding-bottom: 5px;
+
+            .btn {
+                width: 100%;
+                padding: 0 5px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                flex-direction: column;
+
+                button {
+                    padding: 9px 5px;
+                    margin-top: 5px;
+                    width: 100%;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+
+                .btn2 {
+                    padding: 8.4px 25px;
+                }
+            }
+        }
+
+    }
+
 }

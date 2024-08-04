@@ -8,7 +8,7 @@
     height: 100vh;
     width: 220px;
     transition: 0.3s;
-    box-shadow: 3px 0 20px #80808051;
+    box-shadow: 3px 0 20px #00000051;
 
     label {
         display: none;
@@ -128,6 +128,7 @@
             padding: 8px 6px;
             padding-right: 12px;
             background-color: #2D53DA;
+            box-shadow: 3px 0 20px #00000051;
         }
 
 
@@ -163,7 +164,6 @@
             position: fixed;
             transform: translate(-130%);
             transition: 0.4s;
-            background-color: #2D53DA;
 
             label {
                 display: block;
@@ -229,7 +229,6 @@
 
                 a:not(.active) {
                     background-color: transparent;
-                    color: white;
                 }
             }
         }
@@ -421,17 +420,18 @@
             top: 6.5px;
             padding: 9.5px 11px;
             transition: 0.4s;
-            border-radius: 0 0 10px 0;
+            border-radius: 10px;
             background-color: transparent;
         }
 
         .open .bars {
-            left: 1px;
+            left: 3px;
             z-index: 999;
             top: 7px;
             padding: 8px 6px;
             padding-right: 12px;
-            background-color: transparent;
+            background-color: rgb(147, 147, 147);
+            box-shadow: none;
         }
 
 
@@ -467,7 +467,6 @@
             position: fixed;
             transform: translate(-130%);
             transition: 0.4s;
-            background-color: #2D53DA;
 
             label {
                 display: block;
@@ -533,7 +532,6 @@
 
                 a:not(.active) {
                     background-color: transparent;
-                    color: white;
                 }
             }
         }
