@@ -1,9 +1,9 @@
 import { Button } from "@material-tailwind/react";
-import "./style2.scss"
+import "./style.scss"
 import React from 'react';
 import { useTranslation } from "react-i18next";
 
-export default function XabarCard({ firstName, lastName, phone, email, xabar2 }) {
+export default function EcoSwapXabar({ ism, phone, email, massage }) {
     const { t } = useTranslation();
     return (
         <>
@@ -12,11 +12,10 @@ export default function XabarCard({ firstName, lastName, phone, email, xabar2 })
                     <div className="back">
                         <div className="back-content duration-200  bg-white dark:bg-[#121212]">
                             <div className="ps">
-                                <p>{t("nomi")}: <span>{firstName}</span></p>
-                                <p>{t("nomi")}2: <span>{lastName}</span></p>
+                                <p>{t("nomi")}: <span>{ism}</span></p>
                                 <p>{t("phone")}: <span>{phone}</span></p>
                                 <a href={""}><p>{t("email2")}: <span>{email}</span></p></a>
-                                <p className="endP"><h3>{t("xabar")}:<i class="fa-solid fa-arrow-down"></i></h3> <span>{xabar2}</span></p>
+                                <p className="endP"><h3>{t("xabar")}:<i class="fa-solid fa-arrow-down"></i></h3> <span>{massage}</span></p>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,6 @@ import axios from "axios";
 
 export const inctance = axios.create(
     {
-        baseURL: "https://crudcrud.com/api/3cae43c600eb41e0af0240d8ce2a7424",
+        baseURL: "https://crudcrud.com/api/f43dc070ec3c4835baa452c1d13846d5",
     }
 );

@@ -15,17 +15,17 @@
         border-radius: 6px;
         padding-bottom: 5px;
 
-        .btn {
+        .btns2 {
             width: 100%;
             padding: 0 5px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 3px;
 
             .btn1 {
                 padding: 9px 5px;
                 margin-top: 5px;
-                width: 50%;
+                width: 100%;
                 font-size: 12px;
                 text-transform: capitalize;
             }
@@ -41,9 +41,14 @@
                 height: 33px;
                 overflow: hidden;
                 margin-top: 4px;
-                width: 50%;
+                width: 100%;
                 background-color: transparent;
-                border: 2px solid rgb(0, 182, 0);
+                border: 2px solid #00b600;
+                background-color: #00b600;
+            }
+
+            button {
+                box-shadow: 3px 3px 10px rgba(22, 22, 22, 0.447);
             }
         }
     }
@@ -211,12 +216,13 @@
             border-radius: 6px;
             padding-bottom: 5px;
 
-            .btn {
+            .btns2 {
                 width: 100%;
                 padding: 0 5px;
                 display: flex;
                 align-items: center;
-                gap: 5px;
+                gap: 3px;
+                margin-top: 3px;
                 flex-direction: column;
 
                 button {

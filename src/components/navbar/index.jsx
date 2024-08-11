@@ -26,8 +26,8 @@ export default function Navbar() {
         <>
             <nav className="nav duration-200 bg-white dark:bg-[#121212]">
                 <div className="logo flex items-center gap-2">
-                    <Link to={"/home"}><img src="/vite.svg" alt="" /></Link>
-                    <Link to={"/home"}><h1>Dashboard</h1></Link>
+                    <Link to={"/"}><img src="/vite.svg" alt="" /></Link>
+                    <Link to={"/"}><h1>Dashboard</h1></Link>
                 </div>
                 <div className="end flex items-center gap-4">
                     <select className="border-[1px] rounded-[5px] pt-[2px] pb-[2px] bg-white cursor-pointer border-[blue] text-[#121212] focus:outline-none" value={i18n.language} onChange={handleChange}>

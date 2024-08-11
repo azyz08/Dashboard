@@ -8,9 +8,12 @@ import Xodimlar from "./pages/xodimlar";
 import Jamoalar from "./pages/jamoalar";
 import Xabarlar from "./pages/xabarlar";
 import SeeMore from "./pages/seeMore";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
   const { darkMode, toggleDarkMode } = useMode();
+
+  const { t } = useTranslation();
 
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
@@ -22,6 +25,7 @@ export default function App() {
             <Navbar />
             <div className="scroll duration-200 pr-2 pl-3">
               <Routes>
+                <Route path="/" element={<div className="w-full items-center flex justify-center h-full p-2"><h1 className="text-[25px] text-center">{t("home")}</h1></div>} />
                 <Route path="/proectlar" element={<Proektlar />} />
                 <Route path="/xodimlar" element={<Xodimlar />} />
                 <Route path="/jamoalar" element={<Jamoalar />} />

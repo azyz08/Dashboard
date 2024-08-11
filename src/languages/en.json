@@ -1,6 +1,9 @@
 {
     "tools": "Admin tools",
-    "loyiha": "Projects",
+    "murojaat": "References from the EcoSwap site",
+    "murojaat2": "Messages from the EcoSwap site",
+    "loyiha": "Appeals",
+    "muro": "Appeal",
     "xodim": "Employees",
     "jamoa": "Teams",
     "setting": "Settings",
@@ -13,6 +16,7 @@
     "delete": "Delete project",
     "email": "Your email",
     "xabar": "Message",
+    "xabar2": "Posts from the Learning Center and University Search website",
     "more": "Read more",
     "user": "User",
     "age": "Age",
@@ -24,5 +28,9 @@
     "portfolio": "Portfolio",
     "reset": "Reset",
     "seEmail": "See email",
-    "delXabar": "Delete message"
+    "delXabar": "Delete message",
+    "rasm": "Picture",
+    "korish": "See",
+    "home": "Welcome to the admin site",
+    "lokatsiya": "Lokation"
 }

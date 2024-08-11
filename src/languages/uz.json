@@ -1,6 +1,9 @@
 {
     "tools": "Boshqaruv vositalari",
-    "loyiha": "Loyihalar",
+    "murojaat": "EcoSwap saytidan murojaatlar",
+    "murojaat2": "EcoSwap saytidan xabarlar",
+    "loyiha": "Murojaatlar",
+    "muro": "Murojaat",
     "xodim": "Xodimlar",
     "jamoa": "Jamoalar",
     "setting": "Sozlamalar",
@@ -13,6 +16,7 @@
     "delete": "Loyihani o'chirish",
     "email": "Elektron pochtangiz",
     "xabar": "Xabar",
+    "xabar2": "O'quv markazi va Universitet qidiruvi veb-saytidan xabarlar",
     "more": "Yana o'qish",
     "user": "Foydalanuvchi",
     "age": "Yosh",
@@ -24,5 +28,9 @@
     "portfolio": "Portfolio",
     "reset": "Reset",
     "seEmail": "Emailni ko'rish",
-    "delXabar": "Xabarni o'chirish"
+    "delXabar": "Xabarni o'chirish",
+    "rasm": "Rasm",
+    "korish": "Ko'rish",
+    "home": "Admin saytiga xush kelibsiz",
+    "lokatsiya": "Расположение"
 }
